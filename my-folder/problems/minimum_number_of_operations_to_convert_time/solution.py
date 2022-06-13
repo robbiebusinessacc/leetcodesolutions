@@ -1,0 +1,2 @@
+class Solution:
+	def convertTime(self,current,correct):current=60*int(current[0:2])+int(current[3:]);correct=60*int(correct[0:2])+int(correct[3:]);difference=correct-current;return difference//60+difference%60//15+difference%60%15//5+difference%60%15%5
