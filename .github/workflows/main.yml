@@ -1,0 +1,15 @@
+- name: LeetCode Sync
+  # You may pin to the exact commit or the version.
+  # uses: joshcai/leetcode-sync@a9701bbb1236d39fe651d5d9eb029b91c78074a8
+  uses: joshcai/leetcode-sync@v1.5
+  with:
+    # The GitHub token
+    github-token: 
+    # The LeetCode CSRF token
+    leetcode-csrf-token: 
+    # The LeetCode session value
+    leetcode-session: 
+    # Number of seconds after an accepted solution to ignore other accepted solutions for the same problem
+    filter-duplicate-secs: # optional, default is 86400
+    # The folder to save the synced files in (relative to the top level of your repo)
+    destination-folder: # optional
